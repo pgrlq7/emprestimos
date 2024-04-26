@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Empréstimos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center;">Empréstimos</h2>
+        <input type="text" id="nomePessoa" placeholder="Nome da Pessoa" data-js-input-nome />
+        <input type="number" id="valor" placeholder="Valor" data-js-input-valor />
+        <button data-js-botao-adicionar>
+            <span>Adicionar Empréstimo</span>
+        </button>
+        <ul id="listaEmprestimos" data-js-mostrar-dados-emprestimo></ul>
+    </div>
+    <script src="index.js" defer></script>
+</body>
+</html>
